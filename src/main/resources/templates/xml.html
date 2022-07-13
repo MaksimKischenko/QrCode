@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Text</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5 mb-5">
+    <h1> Add info </h1>
+    <form action="/add" method="post" enctype="application/json">
+        <input type="text" name="text" placeholder="Insert text" class="form-control"><br>
+        <button type="submit" class="btn btn-success">Add info</button>
+    </form>
+</div>
+
+</body>
+</html>
